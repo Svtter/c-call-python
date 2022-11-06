@@ -18,7 +18,7 @@ double call_func(PyObject *func, double x, double y)
     if (!PyCallable_Check(func))
     {
 
-        fprintf(stderr, "call_func: expected a callablen");
+        fprintf(stderr, "call_func: expected a callable\n");
         goto fail;
     }
     /* Build arguments */
@@ -42,7 +42,7 @@ double call_func(PyObject *func, double x, double y)
     if (!PyFloat_Check(result))
     {
 
-        fprintf(stderr, "call_func : callable didn’t return a floatn");
+        fprintf(stderr, "call_func : callable didn't return a float\n");
         goto fail;
     }
 

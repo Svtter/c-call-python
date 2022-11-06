@@ -13,3 +13,4 @@
 ## related project
 
 - [go-python-p](https://github.com/Svtter/go-python-p)
+- [calling-python-from-c](https://python3-cookbook.readthedocs.io/zh_CN/latest/c15/p06_calling_python_from_c.html)
